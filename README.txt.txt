@@ -5,6 +5,7 @@ The following libraries are used:
 - Jersey Framework 
 All the jars can be found in \SMSHub\WebContent\WEB-INF\lib
 
+To run this project, you must have JAVA JDK 8 installed on your computer.
 This is an java project that can be imported in eclipse.
 
 Download eclipse: https://www.eclipse.org/downloads/
@@ -17,6 +18,10 @@ Check the checkbox next to "Web, XML, Java EE ..." and click finish to install t
 To import the project, go to File -> Import -> General -> Existing Project into Workspace
 next
 In "Select root repository", set the path to the SMSHub project folder (the folder which contains the file .project)
+Finish
+
+In Project -> Properties -> Java Compiler
+Make sure that java 1.8 is used.
 
 The project should compile now.
 
